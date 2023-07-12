@@ -1,0 +1,2 @@
+-R coq Introspector
+-arg "-w '-notation-overridden'"

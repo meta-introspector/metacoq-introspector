@@ -1,0 +1,24 @@
+opam-version: "2.0"
+synopsis: "INTROSPECTOR"
+description: "Introspector Code Explorer"
+maintainer: ["Mike <jmikedupont2@gmail.com>"]
+authors: [
+  "Mike"
+]
+license: "BSD-2-Clause"
+homepage: "https://github.com/vzaliva/helix"
+bug-reports: "https://github.com/vzaliva/helix/issues"
+depends: [
+  "ocaml"
+  "ocamlfind"
+  "coq-metacoq-template"
+  "ANSITerminal"
+  "core"
+  "core_kernel"
+  "qcheck"
+  "menhir"
+]
+build: [
+  [make "-j"  jobs]
+]
+dev-repo: "git+https://github.com/vzaliva/helix.git"
